@@ -87,12 +87,16 @@ header p{
     background-color: #4d0e0d
 }
 #utilizar{
-    width: 100%;
-    height: 1000px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #080908;
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
     margin-top: 80px;
     font-size: 1rem;
     text-align: center;
-}
+    background-color: white;
+}    
 #utilizar p{
-    text-align:left;
+    text-align:center;
 }
