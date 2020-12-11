@@ -1,0 +1,98 @@
+body{
+    background-color: #dbdbdb;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+header p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+
+}
+#tema{
+    position: fixed;
+    top: 5px; right: 10px;
+    font-size: 0.9rem;
+}
+#container{
+    width:100%;
+    height: 300px; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+#clock{
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    border: 2px solid #080908;
+    box-shadow: 5px 5px 10px #080908;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#selecionar{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#relogio{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #080908;
+}
+#container-buttons{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.buttons{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:#aeaeae;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #080908;
+    box-shadow: 2px 2px 5px #080908;
+}
+#m{
+    width: 60px;
+    color: #000000;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    font-size: 1rem;
+    box-sizing: padding;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+}
+#salvar{
+    background-color: #0d4d2c
+}
+#cancelar{
+    background-color: #545c0f
+}
+#parar{
+    background-color: #4d0e0d
+}
+#utilizar{
+    width: 100%;
+    height: 1000px;
+    margin-top: 80px;
+    font-size: 1rem;
+    text-align: center;
+}
+#utilizar p{
+    text-align:left;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <title>Hora em hora</title>
+</head>
+
+<body>
+    <header class="title">
+        <p>Em Hora</p>
+    </header>
+    <audio src="./alarm.mp3" id="audio"></audio>
+    <div id="tema">
+        <input type="checkbox" name="tema" id="check">
+        <label for="tema">Tema escuro</label>
+    </div>
+    <div id="container">
+        <div id="containerclock">
+            <div id="clock">
+                <p id="relogio"></p>
+            </div>
+        </div>
+        <div id="selecionar">
+            <h3>Minuto:</h3>
+            <select id="m" type="value"></select>
+        </div>
+    </div>
+    <div id="container-buttons">
+        <button class="buttons" id="salvar">Salvar alarme</button>
+        <button class="buttons" id="cancelar" style="display: none">Cancelar alarme</button>
+        <button class="buttons" id="parar" style="display: none">Parar alarme</button>
+    </div>
+    <div id="utilizar">
+        <h2>Como utilizar o Em Hora</h2>
+        <p>Na caixa de seleção "Minuto", escolha o minuto desejado para o alarme disparar e clique em 'Salvar alarme'.</p>
+        <p>Se for escolhido o minuto atual, <strong>o alarme não dispara</strong>. Exemplo: são 13:50:20. Se escolher o minuto '50', o alarme não vai disparar.</p>
+        <p>Caso queira mudar o alarme, clique em 'Cancelar alarme' e selecione o minuto desejado.</p>
+        <p>Após o disparo do alarme não é necessário criar outro alarme, o minuto escolhido inicialmente fica salvo.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
